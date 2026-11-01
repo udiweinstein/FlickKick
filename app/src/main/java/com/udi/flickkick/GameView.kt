@@ -173,7 +173,7 @@ class GameView(context: Context) : SurfaceView(context), SurfaceHolder.Callback,
             update(dt)
             val c = try { holder.lockHardwareCanvas() } catch (_: Exception) { null }
             if (c == null) { Thread.sleep(16); continue }
-            try { draw(c) } finally {
+            try { render(c) } finally {
                 try { holder.unlockCanvasAndPost(c) } catch (_: Exception) {}
             }
         }
@@ -797,7 +797,7 @@ class GameView(context: Context) : SurfaceView(context), SurfaceHolder.Callback,
         if (overT > 1f) label(c, "בעט (או הקש על המסך) לסבב חדש", W / 2, H * 0.6f, W * 0.045f)
     }
 
-    private fun draw(c: Canvas) {
+    private fun render(c: Canvas) {
         drawField(c)
         drawNet(c)
         if (bz > goalZ) drawBall(c)
