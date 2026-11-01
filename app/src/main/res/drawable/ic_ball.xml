@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- כדור -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M54,30 a24,24 0 1,0 0.01,0 z" />
+    <!-- מחומש מרכזי -->
+    <path android:fillColor="#1A1A1A"
+        android:pathData="M54,45 L62.6,51.2 L59.3,61.3 L48.7,61.3 L45.4,51.2 Z" />
+    <path android:fillColor="#1A1A1A"
+        android:pathData="M54,30.5 L60,33 L54,37 L48,33 Z" />
+    <path android:fillColor="#1A1A1A"
+        android:pathData="M31,50 L35,45 L38,52 L33,57 Z" />
+    <path android:fillColor="#1A1A1A"
+        android:pathData="M77,50 L73,45 L70,52 L75,57 Z" />
+    <path android:fillColor="#1A1A1A"
+        android:pathData="M42,74 L46,69 L50,75 L45,77 Z" />
+    <path android:fillColor="#1A1A1A"
+        android:pathData="M66,74 L62,69 L58,75 L63,77 Z" />
+</vector>
